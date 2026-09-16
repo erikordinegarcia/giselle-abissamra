@@ -963,44 +963,25 @@ body.menu-open { overflow: hidden; }
 /* -----------------------------------------------------------------
    15. WHATSAPP FLUTUANTE
    ----------------------------------------------------------------- */
-.whatsapp-float {
+/* WhatsApp floating */
+.wppFloat {
   position: fixed;
-  right: 24px;
-  bottom: 24px;
-  width: 58px;
-  height: 58px;
-  border-radius: 50%;
-  background: #2FA84F;
+  right: 20px;
+  bottom: 30px;
+  z-index: 90;
+  width: 70px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 24px rgba(47,168,79,0.4);
-  z-index: 150;
-  transition: transform 0.25s var(--ease);
+  background: #25d366;
+  border-radius: 50%;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.35);
 }
 
-.whatsapp-float:hover { transform: scale(1.08); }
-
-.whatsapp-float__tooltip {
-  position: absolute;
-  right: 70px;
-  background: var(--ink);
-  color: var(--white);
-  font-size: 0.85rem;
-  font-weight: 500;
-  padding: 8px 14px;
-  border-radius: 8px;
-  white-space: nowrap;
-  opacity: 0;
-  transform: translateX(6px);
-  transition: opacity 0.25s var(--ease), transform 0.25s var(--ease);
-  pointer-events: none;
-}
-
-.whatsapp-float:hover .whatsapp-float__tooltip,
-.whatsapp-float:focus-visible .whatsapp-float__tooltip {
-  opacity: 1;
-  transform: translateX(0);
+.wppFloat img {
+  width: 70px;
+  height: 70px;
 }
 
 /* -----------------------------------------------------------------
