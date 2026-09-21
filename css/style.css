@@ -621,6 +621,11 @@ body.menu-open { overflow: hidden; }
   border-color: var(--primary-light);
 }
 
+.specialties__cta {
+  text-align: center;
+  margin-top: 48px;
+}
+
 .spec-card__icon {
   display: inline-flex;
   align-items: center;

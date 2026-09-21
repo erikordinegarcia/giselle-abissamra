@@ -1,501 +1,962 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Giselle Abissamra | Fonoaudiologia</title>
-  <meta name="description" content="Giselle Abissamra, fonoaudióloga. Atendimento humanizado para crianças, adolescentes e adultos, com planos terapêuticos individualizados focados em comunicação e qualidade de vida.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giselle Abissamra | Fonoaudiologia</title>
+    <meta
+      name="description"
+      content="Giselle Abissamra, fonoaudióloga. Atendimento humanizado para crianças, adolescentes e adultos, com planos terapêuticos individualizados focados em comunicação e qualidade de vida."
+    />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Giselle Abissamra | Fonoaudiologia">
-  <meta property="og:description" content="Cuidado, comunicação e desenvolvimento em todas as fases da vida. Atendimento fonoaudiológico humanizado para crianças e adultos.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/images/og-image.jpg">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Giselle Abissamra | Fonoaudiologia" />
+    <meta
+      property="og:description"
+      content="Cuidado, comunicação e desenvolvimento em todas as fases da vida. Atendimento fonoaudiológico humanizado para crianças e adultos."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/og-image.jpg" />
 
-  <!-- Favicon placeholder: substitua por assets/logo/favicon.ico -->
-  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+    <!-- Favicon placeholder: substitua por assets/logo/favicon.ico -->
+    <link rel="icon" type="image/png" href="assets/logo/favicon.png" />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Pular para o conteúdo (acessibilidade) -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
 
-  <!-- Pular para o conteúdo (acessibilidade) -->
-  <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+    <!-- ============================================= -->
+    <!-- HEADER -->
+    <!-- ============================================= -->
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a href="#inicio" class="logo" aria-label="Giselle Abissamra - Página inicial">
+          <!-- Logo placeholder: substitua por assets/logo/logo.svg quando disponível -->
+          <span class="logo__mark" aria-hidden="true">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M20 4C11.16 4 4 11.16 4 20C4 28.84 11.16 36 20 36"
+                stroke="currentColor"
+                stroke-width="2.2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M14 15C14 12.79 15.79 11 18 11C20.21 11 22 12.79 22 15V22C22 25.31 19.31 28 16 28"
+                stroke="currentColor"
+                stroke-width="2.2"
+                stroke-linecap="round"
+              />
+              <circle cx="26" cy="15" r="1.8" fill="currentColor" />
+              <path
+                d="M29 19C29 22.87 25.87 26 22 26"
+                stroke="currentColor"
+                stroke-width="2.2"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span class="logo__text">
+            <span class="logo__name">Giselle Abissamra</span>
+            <span class="logo__role">Fonoaudiologia</span>
+          </span>
+        </a>
 
-  <!-- ============================================= -->
-  <!-- HEADER -->
-  <!-- ============================================= -->
-  <header class="header" id="header">
-    <div class="container header__inner">
-      <a href="#inicio" class="logo" aria-label="Giselle Abissamra - Página inicial">
-        <!-- Logo placeholder: substitua por assets/logo/logo.svg quando disponível -->
-        <span class="logo__mark" aria-hidden="true">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20 4C11.16 4 4 11.16 4 20C4 28.84 11.16 36 20 36" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-            <path d="M14 15C14 12.79 15.79 11 18 11C20.21 11 22 12.79 22 15V22C22 25.31 19.31 28 16 28" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-            <circle cx="26" cy="15" r="1.8" fill="currentColor"/>
-            <path d="M29 19C29 22.87 25.87 26 22 26" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        <nav class="nav" id="nav" aria-label="Navegação principal">
+          <ul class="nav__list">
+            <li><a href="#inicio" class="nav__link">Início</a></li>
+            <li><a href="#sobre" class="nav__link">Sobre Mim</a></li>
+            <li><a href="#especialidades" class="nav__link">Especialidades</a></li>
+            <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+            <li><a href="#contato" class="nav__link">Contato</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contato" class="btn btn--primary btn--header">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <rect
+              x="3"
+              y="5"
+              width="18"
+              height="16"
+              rx="2"
+              stroke="currentColor"
+              stroke-width="1.8"
+            />
+            <path d="M3 10H21" stroke="currentColor" stroke-width="1.8" />
+            <path d="M8 3V7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            <path d="M16 3V7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
           </svg>
-        </span>
-        <span class="logo__text">
-          <span class="logo__name">Giselle Abissamra</span>
-          <span class="logo__role">Fonoaudiologia</span>
-        </span>
-      </a>
+          Agendar Consulta
+        </a>
 
-      <nav class="nav" id="nav" aria-label="Navegação principal">
-        <ul class="nav__list">
-          <li><a href="#inicio" class="nav__link">Início</a></li>
-          <li><a href="#sobre" class="nav__link">Sobre Mim</a></li>
-          <li><a href="#especialidades" class="nav__link">Especialidades</a></li>
-          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
-          <li><a href="#contato" class="nav__link">Contato</a></li>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="mobileMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <nav aria-label="Navegação mobile">
+        <ul class="mobile-menu__list">
+          <li><a href="#inicio" class="mobile-menu__link">Início</a></li>
+          <li><a href="#sobre" class="mobile-menu__link">Sobre Mim</a></li>
+          <li><a href="#especialidades" class="mobile-menu__link">Especialidades</a></li>
+          <li><a href="#depoimentos" class="mobile-menu__link">Depoimentos</a></li>
+          <li><a href="#contato" class="mobile-menu__link">Contato</a></li>
         </ul>
+        <a href="#contato" class="btn btn--primary mobile-menu__cta">Agendar Consulta</a>
       </nav>
-
-      <a href="#contato" class="btn btn--primary btn--header">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <rect x="3" y="5" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/>
-          <path d="M3 10H21" stroke="currentColor" stroke-width="1.8"/>
-          <path d="M8 3V7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-          <path d="M16 3V7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-        </svg>
-        Agendar Consulta
-      </a>
-
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
     </div>
-  </header>
+    <div class="mobile-menu__overlay" id="mobileMenuOverlay"></div>
 
-  <!-- Menu mobile -->
-  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-    <nav aria-label="Navegação mobile">
-      <ul class="mobile-menu__list">
-        <li><a href="#inicio" class="mobile-menu__link">Início</a></li>
-        <li><a href="#sobre" class="mobile-menu__link">Sobre Mim</a></li>
-        <li><a href="#especialidades" class="mobile-menu__link">Especialidades</a></li>
-        <li><a href="#depoimentos" class="mobile-menu__link">Depoimentos</a></li>
-        <li><a href="#contato" class="mobile-menu__link">Contato</a></li>
-      </ul>
-      <a href="#contato" class="btn btn--primary mobile-menu__cta">Agendar Consulta</a>
-    </nav>
-  </div>
-  <div class="mobile-menu__overlay" id="mobileMenuOverlay"></div>
+    <main id="main-content">
+      <!-- ============================================= -->
+      <!-- HERO -->
+      <!-- ============================================= -->
+      <section class="hero" id="inicio">
+        <div class="container hero__inner">
+          <div class="hero__content" data-animate>
+            <p class="hero__eyebrow">Fonoaudiologia</p>
+            <h1 class="hero__title">Giselle<br />Abissamra</h1>
+            <p class="hero__lead">
+              Cuidado, comunicação e desenvolvimento em todas as fases da vida.
+            </p>
+            <p class="hero__text">
+              Atendimento fonoaudiológico individualizado, com escuta atenta e acompanhamento
+              próximo — para que crianças, adolescentes e adultos se comuniquem com mais segurança e
+              qualidade de vida.
+            </p>
+            <div class="hero__actions">
+              <a href="#contato" class="btn btn--primary btn--lg">Agendar Consulta</a>
+              <a href="#sobre" class="btn btn--ghost btn--lg">Conheça meu trabalho</a>
+            </div>
+          </div>
 
-  <main id="main-content">
-
-    <!-- ============================================= -->
-    <!-- HERO -->
-    <!-- ============================================= -->
-    <section class="hero" id="inicio">
-      <div class="container hero__inner">
-        <div class="hero__content" data-animate>
-          <p class="hero__eyebrow">Fonoaudiologia</p>
-          <h1 class="hero__title">Giselle<br>Abissamra</h1>
-          <p class="hero__lead">Cuidado, comunicação e desenvolvimento em todas as fases da vida.</p>
-          <p class="hero__text">Atendimento fonoaudiológico individualizado, com escuta atenta e acompanhamento próximo — para que crianças, adolescentes e adultos se comuniquem com mais segurança e qualidade de vida.</p>
-          <div class="hero__actions">
-            <a href="#contato" class="btn btn--primary btn--lg">Agendar Consulta</a>
-            <a href="#sobre" class="btn btn--ghost btn--lg">Conheça meu trabalho</a>
+          <div class="hero__media" data-animate>
+            <!-- Foto real da fonoaudióloga -->
+            <div class="hero__image-frame">
+              <img
+                src="assets/images/fonoaudiologia.png"
+                alt="Fonoaudióloga Giselle Abissamra atendendo uma criança em consultório"
+                class="hero__image"
+              />
+            </div>
+            <div class="hero__badge">
+              <strong>CRFa</strong>
+              <span>14008 — registro profissional</span>
+            </div>
           </div>
         </div>
 
-        <div class="hero__media" data-animate>
-          <!-- Foto real da fonoaudióloga -->
-          <div class="hero__image-frame">
-            <img src="assets/images/fonoaudiologia.png" alt="Fonoaudióloga Giselle Abissamra atendendo uma criança em consultório" class="hero__image">
+        <div class="hero__divider" aria-hidden="true">
+          <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,64 C320,120 1120,0 1440,56 L1440,120 L0,120 Z"></path>
+          </svg>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- DIFERENCIAIS -->
+      <!-- ============================================= -->
+      <section class="differentials">
+        <div class="container">
+          <div class="differentials__grid">
+            <article class="diff-card" data-animate>
+              <span class="diff-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 21C12 21 4 16.5 4 10.5C4 7.46 6.46 5 9.5 5C10.94 5 12.27 5.65 13.16 6.72C13.5 7.12 13.77 7.55 14 8"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M12 21C12 21 20 16.5 20 10.5C20 7.46 17.54 5 14.5 5C13.66 5 12.86 5.19 12.15 5.53"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <h3>Atendimento Humanizado</h3>
+              <p>
+                Escuta atenta e acolhimento em cada sessão, respeitando o tempo de cada paciente e
+                de sua família.
+              </p>
+            </article>
+
+            <article class="diff-card" data-animate>
+              <span class="diff-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M9 21H15"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M12 17V21"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M6 3H18L17 13C17 15.76 14.76 18 12 18C9.24 18 7 15.76 7 13L6 3Z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6.5 8H4.5C3.67 8 3 7.33 3 6.5C3 5.67 3.67 5 4.5 5H6"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <path
+                    d="M17.5 8H19.5C20.33 8 21 7.33 21 6.5C21 5.67 20.33 5 19.5 5H18"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                </svg>
+              </span>
+              <h3>Profissionalismo</h3>
+              <p>
+                Avaliação criteriosa e acompanhamento contínuo, de acordo com as necessidades de
+                cada caso.
+              </p>
+            </article>
+
+            <article class="diff-card" data-animate>
+              <span class="diff-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.6" />
+                  <path
+                    d="M2 20C2 16.69 4.69 14 8 14C11.31 14 14 16.69 14 20"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <circle cx="17" cy="7" r="2.2" stroke="currentColor" stroke-width="1.6" />
+                  <path
+                    d="M14.5 20C14.5 17.24 16.24 15.2 18.7 14.6C20.7 15.15 22 16.9 22 20"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <h3>Crianças e Adultos</h3>
+              <p>
+                Atendimento especializado para diferentes fases da vida, da primeira infância à vida
+                adulta.
+              </p>
+            </article>
+
+            <article class="diff-card" data-animate>
+              <span class="diff-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 19V15C4 12.79 5.79 11 8 11H16C18.21 11 20 12.79 20 15V19"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M9 11V9C9 7.34 10.34 6 12 6C13.66 6 15 7.34 15 9V11"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                  />
+                  <path
+                    d="M12 6V3"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <circle cx="12" cy="15" r="1.3" fill="currentColor" />
+                </svg>
+              </span>
+              <h3>Plano Individualizado</h3>
+              <p>
+                Cada paciente recebe uma abordagem terapêutica construída sob medida para suas
+                necessidades.
+              </p>
+            </article>
+
+            <article class="diff-card" data-animate>
+              <span class="diff-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M3 11L12 4L21 11"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M5 10V19C5 19.55 5.45 20 6 20H18C18.55 20 19 19.55 19 19V10"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M10 20V15H14V20"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <h3>Ambiente Acolhedor</h3>
+              <p>
+                Um espaço pensado para proporcionar segurança, conforto e tranquilidade durante o
+                atendimento.
+              </p>
+            </article>
+
+            <article class="diff-card" data-animate>
+              <span class="diff-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 21C12 21 4 16.5 4 10.5C4 7.46 6.46 5 9.5 5C10.94 5 12.27 5.65 13.16 6.72C13.5 7.12 12 21 12 21Z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2 12H6L8 8L11 16L13 10L15 12H22"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <h3>Qualidade de Vida</h3>
+              <p>
+                Foco no desenvolvimento da comunicação como caminho para mais autonomia e bem-estar.
+              </p>
+            </article>
           </div>
-          <div class="hero__badge">
-            <strong>CRFa</strong>
-            <span>14008 — registro profissional</span>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- SOBRE MIM -->
+      <!-- ============================================= -->
+      <section class="about" id="sobre">
+        <div class="container about__inner">
+          <div class="about__media" data-animate>
+            <!-- Foto real da fonoaudióloga -->
+            <div class="about__image-frame">
+              <img
+                src="assets/images/hero-fonoaudiologia.jpeg"
+                alt="Retrato da fonoaudióloga Giselle Abissamra"
+                class="about__image"
+              />
+            </div>
+          </div>
+
+          <div class="about__content" data-animate>
+            <p class="section-kicker">Sobre mim</p>
+            <h2>Cuidado especializado para cada fase da vida</h2>
+            <p>
+              <strong>Giselle Abissamra — CRFa 14008</strong> é fonoaudióloga, graduada em
+              Fonoaudiologia pela PUC-SP, com especializações em Motricidade Oral e Disfagia, Voz
+              Profissional e Canto, Fala, Linguagem e Distúrbios de Aprendizagem.
+            </p>
+            <p>
+              Sua atuação abrange crianças, jovens, adultos e idosos, proporcionando um
+              acompanhamento individualizado, baseado nas necessidades e particularidades de cada
+              paciente.
+            </p>
+            <p>
+              Mais do que tratar alterações de fala, linguagem, voz, motricidade oral e deglutição,
+              seu trabalho busca contribuir para uma comunicação mais eficiente, maior segurança e
+              mais qualidade de vida no dia a dia.
+            </p>
+            <p>
+              Cada atendimento é conduzido de forma personalizada, unindo conhecimento técnico,
+              experiência e um olhar humanizado para oferecer um cuidado completo em todas as etapas
+              do tratamento.
+            </p>
+            <p class="about__note">Atendimento particular e convênio para crianças e adultos.</p>
+            <a href="#especialidades" class="btn btn--outline">Conheça mais sobre meu trabalho</a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="hero__divider" aria-hidden="true">
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
-          <path d="M0,64 C320,120 1120,0 1440,56 L1440,120 L0,120 Z"></path>
-        </svg>
-      </div>
-    </section>
+      <!-- ============================================= -->
+      <!-- ESPECIALIDADES -->
+      <!-- ============================================= -->
+      <section class="specialties" id="especialidades">
+        <div class="container">
+          <div class="section-heading" data-animate>
+            <p class="section-kicker">O que eu trato</p>
+            <h2>Especialidades</h2>
+            <p class="section-lead">
+              Áreas de atuação voltadas para o desenvolvimento da comunicação em cada fase da vida.
+            </p>
+          </div>
 
-    <!-- ============================================= -->
-    <!-- DIFERENCIAIS -->
-    <!-- ============================================= -->
-    <section class="differentials">
-      <div class="container">
-        <div class="differentials__grid">
-          <article class="diff-card" data-animate>
-            <span class="diff-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 4 16.5 4 10.5C4 7.46 6.46 5 9.5 5C10.94 5 12.27 5.65 13.16 6.72C13.5 7.12 13.77 7.55 14 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 21C12 21 20 16.5 20 10.5C20 7.46 17.54 5 14.5 5C13.66 5 12.86 5.19 12.15 5.53" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            </span>
-            <h3>Atendimento Humanizado</h3>
-            <p>Escuta atenta e acolhimento em cada sessão, respeitando o tempo de cada paciente e de sua família.</p>
-          </article>
+          <div class="specialties__grid">
+            <article class="spec-card" data-animate>
+              <span class="spec-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 5H20V16H8L4 20V5Z"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 10H16"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <h3>Atraso de Fala e Comunicação</h3>
+              <p>
+                Estimulação da fala e da comunicação em crianças com desenvolvimento mais lento que
+                o esperado para a idade.
+              </p>
+            </article>
 
-          <article class="diff-card" data-animate>
-            <span class="diff-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M9 21H15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M12 17V21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6 3H18L17 13C17 15.76 14.76 18 12 18C9.24 18 7 15.76 7 13L6 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M6.5 8H4.5C3.67 8 3 7.33 3 6.5C3 5.67 3.67 5 4.5 5H6" stroke="currentColor" stroke-width="1.6"/><path d="M17.5 8H19.5C20.33 8 21 7.33 21 6.5C21 5.67 20.33 5 19.5 5H18" stroke="currentColor" stroke-width="1.6"/></svg>
-            </span>
-            <h3>Profissionalismo</h3>
-            <p>Avaliação criteriosa e acompanhamento contínuo, de acordo com as necessidades de cada caso.</p>
-          </article>
+            <article class="spec-card" data-animate>
+              <span class="spec-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M9 4C7 4 6 5.5 6 7C4.5 7.2 3.5 8.5 3.5 10C3.5 11 4 11.8 4.7 12.3C4.3 12.9 4 13.6 4 14.5C4 16 5.2 17.2 6.7 17.3C7 18.9 8.4 20 10 20H10.5C11.3 20 12 19.3 12 18.5V6.5C12 5.1 10.9 4 9.5 4H9Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15 4C17 4 18 5.5 18 7C19.5 7.2 20.5 8.5 20.5 10C20.5 11 20 11.8 19.3 12.3C19.7 12.9 20 13.6 20 14.5C20 16 18.8 17.2 17.3 17.3C17 18.9 15.6 20 14 20H13.5C12.7 20 12 19.3 12 18.5V6.5C12 5.1 13.1 4 14.5 4H15Z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <h3>Distúrbios de Aprendizagem</h3>
+              <p>Acompanhamento fonoaudiológico para pacientes com diagnóstico ou suspeita de:</p>
+              <ul class="spec-card__tags">
+                <li><abbr title="Transtorno do Processamento Auditivo Central">TPAC</abbr></li>
+                <li><abbr title="Transtorno de Déficit de Atenção e Hiperatividade">TDAH</abbr></li>
+                <li><abbr title="Transtorno do Espectro Autista">TEA</abbr></li>
+                <li>Dislexia</li>
+                <li><abbr title="Transtorno Opositor Desafiador">TOD</abbr></li>
+              </ul>
+            </article>
 
-          <article class="diff-card" data-animate>
-            <span class="diff-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M2 20C2 16.69 4.69 14 8 14C11.31 14 14 16.69 14 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="17" cy="7" r="2.2" stroke="currentColor" stroke-width="1.6"/><path d="M14.5 20C14.5 17.24 16.24 15.2 18.7 14.6C20.7 15.15 22 16.9 22 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            </span>
-            <h3>Crianças e Adultos</h3>
-            <p>Atendimento especializado para diferentes fases da vida, da primeira infância à vida adulta.</p>
-          </article>
+            <article class="spec-card" data-animate>
+              <span class="spec-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 3V21"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M8 6C8 6 9 5 12 5C15 5 16 6 16 6"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M6 10C6 10 8 8.5 12 8.5C16 8.5 18 10 18 10"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M4 14C4 14 7 12 12 12C17 12 20 14 20 14"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <h3>Alteração de Voz</h3>
+              <p>Avaliação e tratamento de disfonias e outras alterações na qualidade vocal.</p>
+            </article>
 
-          <article class="diff-card" data-animate>
-            <span class="diff-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M4 19V15C4 12.79 5.79 11 8 11H16C18.21 11 20 12.79 20 15V19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M9 11V9C9 7.34 10.34 6 12 6C13.66 6 15 7.34 15 9V11" stroke="currentColor" stroke-width="1.6"/><path d="M12 6V3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="15" r="1.3" fill="currentColor"/></svg>
-            </span>
-            <h3>Plano Individualizado</h3>
-            <p>Cada paciente recebe uma abordagem terapêutica construída sob medida para suas necessidades.</p>
-          </article>
+            <article class="spec-card" data-animate>
+              <span class="spec-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M9 18V5L20 3V16"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.6" />
+                  <circle cx="17" cy="16" r="3" stroke="currentColor" stroke-width="1.6" />
+                </svg>
+              </span>
+              <h3>Aperfeiçoamento da Voz no Canto</h3>
+              <p>
+                Técnica vocal e cuidado com a voz cantada, para quem canta como hobby ou profissão.
+              </p>
+            </article>
 
-          <article class="diff-card" data-animate>
-            <span class="diff-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M3 11L12 4L21 11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 10V19C5 19.55 5.45 20 6 20H18C18.55 20 19 19.55 19 19V10" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 20V15H14V20" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-            </span>
-            <h3>Ambiente Acolhedor</h3>
-            <p>Um espaço pensado para proporcionar segurança, conforto e tranquilidade durante o atendimento.</p>
-          </article>
+            <article class="spec-card" data-animate>
+              <span class="spec-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6" />
+                  <path
+                    d="M8 12C8 12 9.5 9 12 9C14.5 9 16 12 16 12"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <h3>Alteração de Motricidade Oral</h3>
+              <p>
+                Funções de mastigação, deglutição e respiração, para um equilíbrio orofacial
+                saudável.
+              </p>
+            </article>
 
-          <article class="diff-card" data-animate>
-            <span class="diff-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 4 16.5 4 10.5C4 7.46 6.46 5 9.5 5C10.94 5 12.27 5.65 13.16 6.72C13.5 7.12 12 21 12 21Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M2 12H6L8 8L11 16L13 10L15 12H22" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </span>
-            <h3>Qualidade de Vida</h3>
-            <p>Foco no desenvolvimento da comunicação como caminho para mais autonomia e bem-estar.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+            <article class="spec-card" data-animate>
+              <span class="spec-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 3V13"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M8 9C8 9 9.5 11 12 11C14.5 11 16 9 16 9"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M7 15C7 18.59 9.24 21 12 21C14.76 21 17 18.59 17 15"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <h3>Disfagia</h3>
+              <p>
+                Avaliação e reabilitação da deglutição, para uma alimentação mais segura e
+                confortável.
+              </p>
+            </article>
+          </div>
 
-    <!-- ============================================= -->
-    <!-- SOBRE MIM -->
-    <!-- ============================================= -->
-    <section class="about" id="sobre">
-      <div class="container about__inner">
-        <div class="about__media" data-animate>
-          <!-- Foto real da fonoaudióloga -->
-          <div class="about__image-frame">
-            <img src="assets/images/hero-fonoaudiologia.jpeg" alt="Retrato da fonoaudióloga Giselle Abissamra" class="about__image">
+          <div class="specialties__cta">
+            <a
+              href="https://wa.me/5511984721513"
+              target="_blank"
+              rel="noopener"
+              class="btn btn--primary btn--lg"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M20 12C20 16.42 16.42 20 12 20C10.53 20 9.15 19.6 7.97 18.9L3 20L4.32 15.27C3.49 13.97 3 12.44 3 10.79C3 6.37 6.58 3 11 3C15.42 3 20 6.37 20 10.79"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Falar no WhatsApp
+            </a>
           </div>
         </div>
+      </section>
 
-        <div class="about__content" data-animate>
-          <p class="section-kicker">Sobre mim</p>
-          <h2>Cuidado especializado para cada fase da vida</h2>
-          <p><strong>Giselle Abissamra — CRFa 14008</strong> é fonoaudióloga, graduada em Fonoaudiologia pela PUC-SP, com especializações em Motricidade Oral e Disfagia, Voz Profissional e Canto, Fala, Linguagem e Distúrbios de Aprendizagem.</p>
-          <p>Sua atuação abrange crianças, jovens, adultos e idosos, proporcionando um acompanhamento individualizado, baseado nas necessidades e particularidades de cada paciente.</p>
-          <p>Mais do que tratar alterações de fala, linguagem, voz, motricidade oral e deglutição, seu trabalho busca contribuir para uma comunicação mais eficiente, maior segurança e mais qualidade de vida no dia a dia.</p>
-          <p>Cada atendimento é conduzido de forma personalizada, unindo conhecimento técnico, experiência e um olhar humanizado para oferecer um cuidado completo em todas as etapas do tratamento.</p>
-          <p class="about__note">Atendimento particular e convênio para crianças e adultos.</p>
-          <a href="#especialidades" class="btn btn--outline">Conheça mais sobre meu trabalho</a>
+      <!-- ============================================= -->
+      <!-- COMO POSSO AJUDAR (processo) -->
+      <!-- ============================================= -->
+      <section class="process">
+        <div class="container">
+          <div class="section-heading section-heading--light" data-animate>
+            <p class="section-kicker">Como funciona</p>
+            <h2>Como posso ajudar</h2>
+            <p class="section-lead">
+              Um processo claro, pensado para que você entenda cada etapa do acompanhamento.
+            </p>
+          </div>
+
+          <ol class="process__timeline">
+            <li class="process__step" data-animate>
+              <span class="process__number">01</span>
+              <h3>Avaliação</h3>
+              <p>
+                Um primeiro encontro para entender o histórico, as queixas e as expectativas do
+                paciente e da família.
+              </p>
+            </li>
+            <li class="process__step" data-animate>
+              <span class="process__number">02</span>
+              <h3>Identificação das necessidades</h3>
+              <p>
+                Análise cuidadosa dos resultados da avaliação para compreender exatamente onde
+                atuar.
+              </p>
+            </li>
+            <li class="process__step" data-animate>
+              <span class="process__number">03</span>
+              <h3>Plano terapêutico</h3>
+              <p>
+                Construção de um plano individualizado, com objetivos claros e estratégias adequadas
+                a cada caso.
+              </p>
+            </li>
+            <li class="process__step" data-animate>
+              <span class="process__number">04</span>
+              <h3>Acompanhamento</h3>
+              <p>Sessões regulares com ajustes contínuos, acompanhando de perto cada evolução.</p>
+            </li>
+          </ol>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ============================================= -->
-    <!-- ESPECIALIDADES -->
-    <!-- ============================================= -->
-    <section class="specialties" id="especialidades">
-      <div class="container">
-        <div class="section-heading" data-animate>
-          <p class="section-kicker">O que eu trato</p>
-          <h2>Especialidades</h2>
-          <p class="section-lead">Áreas de atuação voltadas para o desenvolvimento da comunicação em cada fase da vida.</p>
-        </div>
+      <!-- ============================================= -->
+      <!-- DEPOIMENTOS -->
+      <!-- ============================================= -->
+      <section class="testimonials" id="depoimentos">
+        <div class="container">
+          <div class="section-heading" data-animate>
+            <p class="section-kicker">Depoimentos</p>
+            <h2>O que dizem sobre o atendimento</h2>
+          </div>
 
-        <div class="specialties__grid">
-          <article class="spec-card" data-animate>
-            <span class="spec-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M4 5H20V16H8L4 20V5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 10H16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            </span>
-            <h3>Atraso de Fala e Comunicação</h3>
-            <p>Estimulação da fala e da comunicação em crianças com desenvolvimento mais lento que o esperado para a idade.</p>
-          </article>
-
-          <article class="spec-card" data-animate>
-            <span class="spec-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M9 4C7 4 6 5.5 6 7C4.5 7.2 3.5 8.5 3.5 10C3.5 11 4 11.8 4.7 12.3C4.3 12.9 4 13.6 4 14.5C4 16 5.2 17.2 6.7 17.3C7 18.9 8.4 20 10 20H10.5C11.3 20 12 19.3 12 18.5V6.5C12 5.1 10.9 4 9.5 4H9Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M15 4C17 4 18 5.5 18 7C19.5 7.2 20.5 8.5 20.5 10C20.5 11 20 11.8 19.3 12.3C19.7 12.9 20 13.6 20 14.5C20 16 18.8 17.2 17.3 17.3C17 18.9 15.6 20 14 20H13.5C12.7 20 12 19.3 12 18.5V6.5C12 5.1 13.1 4 14.5 4H15Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-            </span>
-            <h3>Distúrbios de Aprendizagem</h3>
-            <p>Acompanhamento fonoaudiológico para pacientes com diagnóstico ou suspeita de:</p>
-            <ul class="spec-card__tags">
-              <li><abbr title="Transtorno do Processamento Auditivo Central">TPAC</abbr></li>
-              <li><abbr title="Transtorno de Déficit de Atenção e Hiperatividade">TDAH</abbr></li>
-              <li><abbr title="Transtorno do Espectro Autista">TEA</abbr></li>
-              <li>Dislexia</li>
-              <li><abbr title="Transtorno Opositor Desafiador">TOD</abbr></li>
-            </ul>
-          </article>
-
-          <article class="spec-card" data-animate>
-            <span class="spec-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3V21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 6C8 6 9 5 12 5C15 5 16 6 16 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6 10C6 10 8 8.5 12 8.5C16 8.5 18 10 18 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M4 14C4 14 7 12 12 12C17 12 20 14 20 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            </span>
-            <h3>Alteração de Voz</h3>
-            <p>Avaliação e tratamento de disfonias e outras alterações na qualidade vocal.</p>
-          </article>
-
-          <article class="spec-card" data-animate>
-            <span class="spec-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M9 18V5L20 3V16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="16" r="3" stroke="currentColor" stroke-width="1.6"/></svg>
-            </span>
-            <h3>Aperfeiçoamento da Voz no Canto</h3>
-            <p>Técnica vocal e cuidado com a voz cantada, para quem canta como hobby ou profissão.</p>
-          </article>
-
-          <article class="spec-card" data-animate>
-            <span class="spec-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M8 12C8 12 9.5 9 12 9C14.5 9 16 12 16 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            </span>
-            <h3>Alteração de Motricidade Oral</h3>
-            <p>Funções de mastigação, deglutição e respiração, para um equilíbrio orofacial saudável.</p>
-          </article>
-
-          <article class="spec-card" data-animate>
-            <span class="spec-card__icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3V13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M8 9C8 9 9.5 11 12 11C14.5 11 16 9 16 9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M7 15C7 18.59 9.24 21 12 21C14.76 21 17 18.59 17 15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-            </span>
-            <h3>Disfagia</h3>
-            <p>Avaliação e reabilitação da deglutição, para uma alimentação mais segura e confortável.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================= -->
-    <!-- COMO POSSO AJUDAR (processo) -->
-    <!-- ============================================= -->
-    <section class="process">
-      <div class="container">
-        <div class="section-heading section-heading--light" data-animate>
-          <p class="section-kicker">Como funciona</p>
-          <h2>Como posso ajudar</h2>
-          <p class="section-lead">Um processo claro, pensado para que você entenda cada etapa do acompanhamento.</p>
-        </div>
-
-        <ol class="process__timeline">
-          <li class="process__step" data-animate>
-            <span class="process__number">01</span>
-            <h3>Avaliação</h3>
-            <p>Um primeiro encontro para entender o histórico, as queixas e as expectativas do paciente e da família.</p>
-          </li>
-          <li class="process__step" data-animate>
-            <span class="process__number">02</span>
-            <h3>Identificação das necessidades</h3>
-            <p>Análise cuidadosa dos resultados da avaliação para compreender exatamente onde atuar.</p>
-          </li>
-          <li class="process__step" data-animate>
-            <span class="process__number">03</span>
-            <h3>Plano terapêutico</h3>
-            <p>Construção de um plano individualizado, com objetivos claros e estratégias adequadas a cada caso.</p>
-          </li>
-          <li class="process__step" data-animate>
-            <span class="process__number">04</span>
-            <h3>Acompanhamento</h3>
-            <p>Sessões regulares com ajustes contínuos, acompanhando de perto cada evolução.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <!-- ============================================= -->
-    <!-- DEPOIMENTOS -->
-    <!-- ============================================= -->
-    <section class="testimonials" id="depoimentos">
-      <div class="container">
-        <div class="section-heading" data-animate>
-          <p class="section-kicker">Depoimentos</p>
-          <h2>O que dizem sobre o atendimento</h2>
-        </div>
-
-        <!--
+          <!--
           ATENÇÃO: Os depoimentos abaixo são PLACEHOLDERS FICTÍCIOS.
           Substituir por depoimentos reais e autorizados de pacientes antes da publicação do site.
         -->
-        <div class="testimonials__track" id="testimonialsTrack" data-animate>
-          <article class="testimonial-card">
-            <p class="testimonial-card__quote">"Atendimento muito acolhedor e profissional. Meu filho evoluiu bastante durante o acompanhamento."</p>
-            <p class="testimonial-card__author">Nome do paciente / responsável</p>
-          </article>
+          <div class="testimonials__track" id="testimonialsTrack" data-animate>
+            <article class="testimonial-card">
+              <p class="testimonial-card__quote">
+                "Atendimento muito acolhedor e profissional. Meu filho evoluiu bastante durante o
+                acompanhamento."
+              </p>
+              <p class="testimonial-card__author">Nome do paciente / responsável</p>
+            </article>
 
-          <article class="testimonial-card">
-            <p class="testimonial-card__quote">"Me senti muito bem cuidada desde a primeira consulta. Um espaço leve, seguro e acolhedor."</p>
-            <p class="testimonial-card__author">Nome do paciente / responsável</p>
-          </article>
+            <article class="testimonial-card">
+              <p class="testimonial-card__quote">
+                "Me senti muito bem cuidada desde a primeira consulta. Um espaço leve, seguro e
+                acolhedor."
+              </p>
+              <p class="testimonial-card__author">Nome do paciente / responsável</p>
+            </article>
 
-          <article class="testimonial-card">
-            <p class="testimonial-card__quote">"O plano terapêutico foi pensado especialmente para as nossas necessidades. Recomendo muito."</p>
-            <p class="testimonial-card__author">Nome do paciente / responsável</p>
-          </article>
-        </div>
-
-        <div class="testimonials__nav">
-          <button type="button" class="testimonials__arrow" id="testimonialPrev" aria-label="Depoimento anterior">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-          <div class="testimonials__dots" id="testimonialDots"></div>
-          <button type="button" class="testimonials__arrow" id="testimonialNext" aria-label="Próximo depoimento">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================= -->
-    <!-- CTA -->
-    <!-- ============================================= -->
-    <section class="cta">
-      <div class="container cta__inner" data-animate>
-        <h2>Vamos cuidar da sua comunicação?</h2>
-        <p>Entre em contato para saber mais sobre os atendimentos e encontrar o acompanhamento ideal para você ou sua família.</p>
-        <a href="#contato" class="btn btn--white btn--lg">Agendar Consulta</a>
-      </div>
-    </section>
-
-    <!-- ============================================= -->
-    <!-- CONTATO -->
-    <!-- ============================================= -->
-    <section class="contact" id="contato">
-      <div class="container">
-        <div class="section-heading" data-animate>
-          <p class="section-kicker">Contato</p>
-          <h2>Entre em contato</h2>
-          <p class="section-lead">Escolha o canal mais confortável para você. Será um prazer conversar.</p>
-        </div>
-
-        <div class="contact__grid">
-          <div class="contact__cards" data-animate>
-            <!-- Dados de contato ainda não fornecidos: placeholders fáceis de substituir -->
-            <a href="https://wa.me/5511999999999" class="contact-card" target="_blank" rel="noopener">
-              <span class="contact-card__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M20 12C20 16.42 16.42 20 12 20C10.53 20 9.15 19.6 7.97 18.9L3 20L4.32 15.27C3.49 13.97 3 12.44 3 10.79C3 6.37 6.58 3 11 3C15.42 3 20 6.37 20 10.79" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-              </span>
-              <span class="contact-card__label">WhatsApp</span>
-              <span class="contact-card__value">(11) 99999-9999</span>
-            </a>
-
-            <a href="tel:+5511999999999" class="contact-card">
-              <span class="contact-card__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M6 4H9L11 9L8.5 10.5C9.5 12.7 11.3 14.5 13.5 15.5L15 13L20 15V18C20 19.1 19.1 20 18 20C11.37 20 6 14.63 6 8V4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-              </span>
-              <span class="contact-card__label">Telefone</span>
-              <span class="contact-card__value">(11) 99999-9999</span>
-            </a>
-
-            <a href="mailto:contato@exemplo.com.br" class="contact-card">
-              <span class="contact-card__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 7L12 13L20 7" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-              </span>
-              <span class="contact-card__label">E-mail</span>
-              <span class="contact-card__value">contato@exemplo.com.br</span>
-            </a>
-
-            <div class="contact-card contact-card--static">
-              <span class="contact-card__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none"><path d="M12 21C12 21 5 14.5 5 9.5C5 5.91 8.13 3 12 3C15.87 3 19 5.91 19 9.5C19 14.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="9.5" r="2.3" stroke="currentColor" stroke-width="1.6"/></svg>
-              </span>
-              <span class="contact-card__label">Localização</span>
-              <span class="contact-card__value">São Bernardo do Campo - SP</span>
-            </div>
+            <article class="testimonial-card">
+              <p class="testimonial-card__quote">
+                "O plano terapêutico foi pensado especialmente para as nossas necessidades.
+                Recomendo muito."
+              </p>
+              <p class="testimonial-card__author">Nome do paciente / responsável</p>
+            </article>
           </div>
 
-          <form class="contact-form" id="contactForm" novalidate data-animate>
-            <div class="form-group">
-              <label for="name">Nome</label>
-              <input type="text" id="name" name="name" placeholder="Seu nome completo" autocomplete="name">
-              <span class="form-error" id="nameError"></span>
+          <div class="testimonials__nav">
+            <button
+              type="button"
+              class="testimonials__arrow"
+              id="testimonialPrev"
+              aria-label="Depoimento anterior"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M15 18L9 12L15 6"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <div class="testimonials__dots" id="testimonialDots"></div>
+            <button
+              type="button"
+              class="testimonials__arrow"
+              id="testimonialNext"
+              aria-label="Próximo depoimento"
+            >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M9 6L15 12L9 18"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- CTA -->
+      <!-- ============================================= -->
+      <section class="cta">
+        <div class="container cta__inner" data-animate>
+          <h2>Vamos cuidar da sua comunicação?</h2>
+          <p>
+            Entre em contato para saber mais sobre os atendimentos e encontrar o acompanhamento
+            ideal para você ou sua família.
+          </p>
+          <a href="#contato" class="btn btn--white btn--lg">Agendar Consulta</a>
+        </div>
+      </section>
+
+      <!-- ============================================= -->
+      <!-- CONTATO -->
+      <!-- ============================================= -->
+      <section class="contact" id="contato">
+        <div class="container">
+          <div class="section-heading" data-animate>
+            <p class="section-kicker">Contato</p>
+            <h2>Entre em contato</h2>
+            <p class="section-lead">
+              Escolha o canal mais confortável para você. Será um prazer conversar.
+            </p>
+          </div>
+
+          <div class="contact__grid">
+            <div class="contact__cards" data-animate>
+              <!-- Dados de contato ainda não fornecidos: placeholders fáceis de substituir -->
+              <a
+                href="https://wa.me/5511999999999"
+                class="contact-card"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="contact-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M20 12C20 16.42 16.42 20 12 20C10.53 20 9.15 19.6 7.97 18.9L3 20L4.32 15.27C3.49 13.97 3 12.44 3 10.79C3 6.37 6.58 3 11 3C15.42 3 20 6.37 20 10.79"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="contact-card__label">WhatsApp</span>
+                <span class="contact-card__value">(11) 99999-9999</span>
+              </a>
+
+              <a href="tel:+5511999999999" class="contact-card">
+                <span class="contact-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M6 4H9L11 9L8.5 10.5C9.5 12.7 11.3 14.5 13.5 15.5L15 13L20 15V18C20 19.1 19.1 20 18 20C11.37 20 6 14.63 6 8V4Z"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="contact-card__label">Telefone</span>
+                <span class="contact-card__value">(11) 99999-9999</span>
+              </a>
+
+              <a href="mailto:contato@exemplo.com.br" class="contact-card">
+                <span class="contact-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <rect
+                      x="3"
+                      y="5"
+                      width="18"
+                      height="14"
+                      rx="2"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                    />
+                    <path
+                      d="M4 7L12 13L20 7"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="contact-card__label">E-mail</span>
+                <span class="contact-card__value">contato@exemplo.com.br</span>
+              </a>
+
+              <div class="contact-card contact-card--static">
+                <span class="contact-card__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 21C12 21 5 14.5 5 9.5C5 5.91 8.13 3 12 3C15.87 3 19 5.91 19 9.5C19 14.5 12 21 12 21Z"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linejoin="round"
+                    />
+                    <circle cx="12" cy="9.5" r="2.3" stroke="currentColor" stroke-width="1.6" />
+                  </svg>
+                </span>
+                <span class="contact-card__label">Localização</span>
+                <span class="contact-card__value">São Bernardo do Campo - SP</span>
+              </div>
             </div>
 
-            <div class="form-group">
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email">
-              <span class="form-error" id="emailError"></span>
-            </div>
+            <form class="contact-form" id="contactForm" novalidate data-animate>
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Seu nome completo"
+                  autocomplete="name"
+                />
+                <span class="form-error" id="nameError"></span>
+              </div>
 
-            <div class="form-group">
-              <label for="phone">Telefone</label>
-              <input type="tel" id="phone" name="phone" placeholder="(11) 99999-9999" autocomplete="tel">
-              <span class="form-error" id="phoneError"></span>
-            </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu@email.com"
+                  autocomplete="email"
+                />
+                <span class="form-error" id="emailError"></span>
+              </div>
 
-            <div class="form-group">
-              <label for="message">Mensagem</label>
-              <textarea id="message" name="message" rows="4" placeholder="Conte um pouco sobre o que você procura"></textarea>
-              <span class="form-error" id="messageError"></span>
-            </div>
+              <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="(11) 99999-9999"
+                  autocomplete="tel"
+                />
+                <span class="form-error" id="phoneError"></span>
+              </div>
 
-            <button type="submit" class="btn btn--primary btn--lg btn--full">Enviar mensagem</button>
+              <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Conte um pouco sobre o que você procura"
+                ></textarea>
+                <span class="form-error" id="messageError"></span>
+              </div>
 
-            <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
-          </form>
+              <button type="submit" class="btn btn--primary btn--lg btn--full">
+                Enviar mensagem
+              </button>
+
+              <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================================= -->
+    <!-- FOOTER -->
+    <!-- ============================================= -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <span class="footer__name">Giselle Abissamra</span>
+          <span class="footer__role">Fonoaudiologia</span>
+        </div>
+
+        <nav class="footer__nav" aria-label="Navegação do rodapé">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre Mim</a>
+          <a href="#especialidades">Especialidades</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="footer__social">
+          <!-- Substituir pelos links reais das redes sociais -->
+          <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <rect
+                x="3"
+                y="3"
+                width="18"
+                height="18"
+                rx="5"
+                stroke="currentColor"
+                stroke-width="1.6"
+              />
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6" />
+              <circle cx="17.2" cy="6.8" r="1" fill="currentColor" />
+            </svg>
+          </a>
+          <a
+            href="https://wa.me/5511999999999"
+            target="_blank"
+            rel="noopener"
+            aria-label="WhatsApp"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M20 12C20 16.42 16.42 20 12 20C10.53 20 9.15 19.6 7.97 18.9L3 20L4.32 15.27C3.49 13.97 3 12.44 3 10.79C3 6.37 6.58 3 11 3C15.42 3 20 6.37 20 10.79"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
         </div>
       </div>
-    </section>
-
-  </main>
-
-  <!-- ============================================= -->
-  <!-- FOOTER -->
-  <!-- ============================================= -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <span class="footer__name">Giselle Abissamra</span>
-        <span class="footer__role">Fonoaudiologia</span>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Giselle Abissamra — Todos os direitos reservados.</p>
       </div>
+    </footer>
 
-      <nav class="footer__nav" aria-label="Navegação do rodapé">
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre Mim</a>
-        <a href="#especialidades">Especialidades</a>
-        <a href="#depoimentos">Depoimentos</a>
-        <a href="#contato">Contato</a>
-      </nav>
+    <!-- Botão flutuante do WhatsApp -->
+    <a
+      class="wppFloat"
+      target="_blank"
+      rel="noopener"
+      href="https://wa.me/5511984721513"
+      aria-label="Fale comigo pelo WhatsApp"
+    >
+      <img src="assets/icons/whatsapp.png" alt="WhatsApp" />
+    </a>
 
-      <div class="footer__social">
-        <!-- Substituir pelos links reais das redes sociais -->
-        <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
-        </a>
-        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M20 12C20 16.42 16.42 20 12 20C10.53 20 9.15 19.6 7.97 18.9L3 20L4.32 15.27C3.49 13.97 3 12.44 3 10.79C3 6.37 6.58 3 11 3C15.42 3 20 6.37 20 10.79" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
-        </a>
-      </div>
-    </div>
-    <div class="footer__bottom">
-      <p>&copy; 2026 Giselle Abissamra — Todos os direitos reservados.</p>
-    </div>
-  </footer>
-
-  <!-- Botão flutuante do WhatsApp -->
-  <a
-    class="wppFloat"
-    target="_blank"
-    rel="noopener"
-    href="https://wa.me/5511984721513"
-    aria-label="Fale comigo pelo WhatsApp"
-  >
-    <img src="assets/icons/whatsapp.png" alt="WhatsApp">
-  </a>
-
-  <script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
